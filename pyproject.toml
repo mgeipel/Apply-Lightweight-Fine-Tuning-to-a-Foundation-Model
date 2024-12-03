@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "transformer-experiments-udacity"
+version = "0.1.0"
+description = ""
+authors = ["Markus Geipel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = {extras = ["torch"], version = "^4.46.3"}
+datasets = "^3.1.0"
+ipykernel = "^6.29.5"
+torch = "^2.5.1"
+tqdm = "^4.67.1"
+ipywidgets = "^8.1.5"
+peft = "^0.13.2"
+evaluate = "^0.4.3"
+scikit-learn = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
