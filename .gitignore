@@ -4,7 +4,6 @@ __pycache__/
 *$py.class
 model.*
 config.json
-data/
 
 # C extensions
 *.so
